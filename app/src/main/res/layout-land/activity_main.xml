@@ -27,10 +27,12 @@
 
     <ImageView
         android:id="@+id/image_eightBall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:src="@drawable/ball2"/>
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/textView"
+        android:src="@drawable/ball2"
+
+        android:layout_centerInParent="true"/>
     <Button
         android:id="@+id/askButton"
         android:layout_below="@id/image_eightBall"
